@@ -1,0 +1,202 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* view base.blade.php */
+
+header{
+    background-color: #4b75ff;
+    text-align: center;
+    color: rgb(39, 39, 39);
+}
+
+#container-flex{
+    display: flex;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    color: #1b1b1b; 
+}
+
+#container-flex a{
+    text-decoration: none;
+    color: #4d5492; 
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: white;
+}
+
+#container-flex .botao_login{
+    background-color: #3f3f3f; 
+    color: white;
+}
+
+#container-flex  .botao_login:hover{
+    background-color: #0040ff; 
+    color: white;
+}
+
+#container-flex h1{
+    color: white; 
+    font-size: 30px;   
+    padding: 0px 10px;
+}
+    
+main{
+    padding: 50px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: #4b75ff;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+table .table-stripped{
+    border: 2px solid #7f8fc0; 
+
+}
+/* view welcome.blade.php */
+
+#container_cadastro .mb{
+    width: auto;
+    height: auto;
+}
+
+#container_cadastro h2{
+    text-align: center;
+}
+
+#container_cadastro a{
+    text-align: center;
+}
+
+#container_cadastro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario{
+    width: 50vw;
+    background-color: #247deb7a;
+    padding: 3em;
+    border-radius: 1em;
+    color: #ffffff;
+}
+
+#container_cadastro .btn{
+    background-color: white; 
+    color:  #7f93ce; 
+    border: none;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 8px;
+    margin: 0px 0px 0px 0px;
+}
+
+#container_cadastro hr{
+    border: 1px solid white;
+
+}
+
+  /* view usuarios.blade.php */
+
+.table th{
+    text-align: center;
+}
+
+.table .btn{
+    background-color: #4b75ff; ;
+    border: none;
+    margin: 0.5em;
+    align-items: center;
+}
+
+.table .btn2{
+    background-color: #ff5d6a; 
+    border: none;
+    margin: 0.5em;
+    text-decoration: none;
+}
+
+.table .btn2:hover{
+    background-color: #4169E1;
+    text-decoration: none;
+}
+
+.table table{
+    border: 1px solid #4169E1; 
+    border-radius: 20px;
+}
+
+.table{
+    background-color: white;
+}
+
+.table th{
+    border: 1px solid #4b75ff; 
+}
+
+.table td{
+    border: 1px solid #4169E1;
+}
+
+th{
+    background-color: #4b75ff;
+    color: rgb(255, 255, 255);
+}
+
+.table:hover{
+    box-shadow: #92a3d6 0px 3px 8px;
+    transform: scale(1.02);
+    transition: transform 0.2s ease-in-out;
+}
+
+/* view sobre.blade.php */
+
+#sobre_container ul li::marker{
+    color: #4169E1; 
+}
+
+#sobre_container hr{
+    border: 1px solid #4169E1; 
+}
+
+/* view dashboard.blade.php */
+
+.container-custom {
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 20px;
+    border:1px solid #4169E1;
+    box-shadow: #4169E1;
+    width: 45em;
+    margin-top: 100px; 
+}
+
+.container-custom:hover{
+    box-shadow: #4169E1; 
+    transform: scale(1.02);
+    transition: transform 0.2s ease-in-out;
+}
+
+.info-container {
+    margin-top: 30px;
+    flex: 1;
+}
+
+.container-custom hr {
+    border: 1px solid white;
+}
+
+img{
+    width: 50%;
+}
